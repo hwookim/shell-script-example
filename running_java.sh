@@ -6,7 +6,7 @@ ESTABLISHED_CONNECTION=`netstat -anp | grep java | grep ESTABLISHED | wc -l`
 {
 	echo -e "##running java program info\n"
 	echo "$PSINFO"
-  echo "PORT : $PORT"
+	echo "PORT : $PORT"
 	echo "LISTEN CONNECTION : $LISTEN_CONNECTION"
 	echo "ESTABLISHED CONNECTION : $ESTABLISHED_CONNECTION"
 }
