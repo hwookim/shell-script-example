@@ -1,3 +1,5 @@
+#!/bin/bash
+
 {
   echo "현재 시간 `date`"
   echo "현재 사용자 `users`"
